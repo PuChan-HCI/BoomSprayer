@@ -1,7 +1,7 @@
 # https://zenn.dev/whitphx/articles/streamlit-realtime-cv-app
 
 import streamlit as st
-from streamlit_webrtc import webrtc_streamer
+# from streamlit_webrtc import webrtc_streamer
 import av
 import cv2
 
