@@ -3,7 +3,7 @@ import cv2
 from PIL import Image
 
 # uploaded_video = st.file_uploader("Choose video", type=["mp4", "mov"])
-uploaded_video = open('hana.mp4','rb')
+uploaded_video = open('hana480.mov','rb')
 frame_skip = 5 # display every 300 frames
 
 if uploaded_video is not None: # run only when user uploads video
