@@ -2,8 +2,9 @@ import streamlit as st
 import cv2
 from PIL import Image
 
-uploaded_video = st.file_uploader("Choose video", type=["mp4", "mov"])
-frame_skip = 300 # display every 300 frames
+# uploaded_video = st.file_uploader("Choose video", type=["mp4", "mov"])
+uploaded_video = open('hana.mp4','rb')
+frame_skip = 5 # display every 300 frames
 
 if uploaded_video is not None: # run only when user uploads video
     vid = uploaded_video.name
